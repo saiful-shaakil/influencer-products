@@ -79,7 +79,7 @@ section{
 }
 .intro-div .image img:hover{
     transform: scale(1.2);
-    transition: transform 0.9s ease;
+    transition: transform 0.8s ease;
 }
 
 /* products section start */
