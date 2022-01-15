@@ -1,0 +1,76 @@
+@media only screen and (min-width:550px) and (max-width:800px){
+
+    /* header div start */
+    #more{
+        display: none;
+    }
+    header nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* main first section div start  */
+    section{
+        width: 95%;
+        text-align: center;
+    }
+    .intro-div{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .intro-div .details h3{
+        font-size: 42px;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+    .intro-div .details p{
+        margin-top: 0;
+        font-size: 15px;
+        width: 100%;
+    }
+    .intro-div .image img{
+        margin-top: 80px;
+        width: 80%;
+    }
+
+
+/* products div start */
+    .products{
+        background: #f7f5f5;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-row-gap: 30px;
+    }
+    .product{
+        padding: 15px;
+        background-color: white;
+        border-radius: 5px;
+        text-align: left;
+    }
+
+    /* subscribe div start */
+    .subs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .subs .subs-image{
+        width: 100%;
+    
+    }
+    .subs .subs-image img{
+        width: 100%;
+    }
+    .subs-div .subs-details {
+        width: 100%;
+    }
+    .subs .subs-details input{
+        text-align: center;
+    }
+
+
+}

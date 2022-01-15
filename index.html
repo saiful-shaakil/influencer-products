@@ -7,7 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Influencer Products</title>
     <!-- stylesheet -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/mobile.css">
+    <link rel="stylesheet" href="styles/tab.css">
+    <!-- <link rel="stylesheet" href="styles/desktop.css"> -->
     <!-- font awesome kit -->
     <script src="https://kit.fontawesome.com/c80a948b5e.js" crossorigin="anonymous"></script>
     <!-- google font -->
@@ -17,12 +20,14 @@
 </head>
 
 <body>
+
+    <!-- header start -->
     <header>
         <nav>
             <span>
                 <h3>Influencer Products</h3>
             </span>
-            <span>
+            <span id="more">
                 <a href="">Home</a>
                 <a href="">Products</a>
                 <a href="">Sign Up</a>
@@ -32,6 +37,10 @@
             </span>
         </nav>
     </header>
+
+    <!-- header end -->
+
+    <!-- main start -->
 
     <main>
         <section>
@@ -47,7 +56,7 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section class="section-gap">
             <div class="products-section">
                 <h2>Popular Collection</h2>
                 <div class="products">
@@ -265,7 +274,48 @@
                 </div>
             </div>
         </section>
+
+        <section>
+            <div class="subs">
+                <div class="subs-image">
+                    <img src="images/subscribe.jpg" alt="">
+                </div>
+                <div class="subs-details">
+                    <h3>Let's stay in touch</h3>
+                    <p>Join our newsletter. So that we reach out to you with our best news and offers.</p>
+                    <input type="email" name="email" id="email" placeholder="Enter Your Email"> <br>
+                    <br>
+                    <button>Subscribe &nbsp; &nbsp;<i class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <!-- main end -->
+
+
+    <!-- footer start -->
+    <footer class="section-gap">
+        <div class="footer-details">
+            <div class="info">
+                <h4>Influencer Products</h4>
+                <p>Copyright &copy; 2022 Influners products <br>
+                    All rights reserved</p>
+            </div>
+            <div class="social-links">
+                <a target="_blank" href="https://www.facebook.com/programmingHero/"><i class="fab fa-facebook"></i></a>
+                <a target="_blank" href="https://www.instagram.com/programminghero/?hl=en"><i
+                        class="fab fa-instagram"></i></a>
+                <a target="_blank" href="https://www.youtube.com/channel/UCStj-ORBZ7TGK1FwtGAUgbQ"><i
+                        class="fab fa-youtube"></i></a>
+                <a target="_blank"
+                    href="https://twitter.com/ProgrammingHero?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i
+                        class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- footer end -->
 
 </body>
 
