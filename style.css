@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+/* header contaner start */
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header nav{
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav a{
+    text-decoration: none;
+    color: #3A3A3A;
+    margin-right: 34px;
+}
+#cart{
+    margin-right: 0px;
+}
+
+
+/* header contaner end */
+
+/* main container start */
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+section{
+    width: 1100px;
+    margin-top: 100px;
+}
+.intro-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro-div .details h3{
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.intro-div .details p{
+    margin-top: 0;
+    font-size: 16px;
+    width: 70%;
+}
+
+.details button{
+    width: 170px;
+    padding: 10px 10px;
+    background: #E02C6D;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.intro-div .image img{
+    margin-top: 80px;
+}
+
+/* products section start */
+
+.products-section h2{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.products{
+    background: #f7f5f5;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+
+.product{
+    /* width: 330px; */
+    height: 480px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+}
+.product .product-image img{
+    width: 100%;
+}
+.product .product-details h3{
+    font-size: 28px;
+    margin: 0px;
+}
+
+.product .product-details #amount{
+    font-size: 24px;
+    margin: 0px;
+}
+
+.product .product-details #star{
+    color: #FB8200;
+    font-size: 14px;
+
+}
+.product-details #star #point{
+    color: #787885;
+}
+.product .product-details #info{
+    margin: 0;
+    font-size: 14px;
+    color: #787885;
+
+}
+.see-more {
+    text-align: right;
+    padding: 50px 0px;
+}
+.see-more button{
+    border: none;
+    background-color: transparent;
+    color: #E02C6DDE;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+/* products section end */
+
+/* main container end */
